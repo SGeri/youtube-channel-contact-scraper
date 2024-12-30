@@ -1,0 +1,20 @@
+{
+  "name": "youtube-channel-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm exec dotenv -e .env ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "SGeri",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.10.2",
+    "axios": "^1.7.9",
+    "dotenv-cli": "^8.0.0",
+    "openai": "^4.77.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2"
+  }
+}
